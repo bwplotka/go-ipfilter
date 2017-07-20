@@ -1,5 +1,10 @@
-# IP Filter
-[![Build Status](https://travis-ci.org/Bplotka/go-ipfilter.svg?branch=master)](https://travis-ci.org/Bplotka/go-ipfilter) [![Go Report Card](https://goreportcard.com/badge/github.com/Bplotka/go-ipfilter)](https://goreportcard.com/report/github.com/Bplotka/go-ipfilter)
+# IP Filter 
+[![Build Status](https://travis-ci.org/Bplotka/go-ipfilter.svg?branch=master)](https://travis-ci.org/Bplotka/go-ipfilter) 
+
+<!---
+Commented for now, because of github caching wrong badge..
+[![Go Report Card](https://goreportcard.com/badge/github.com/Bplotka/go-ipfilter)](https://goreportcard.com/report/github.com/Bplotka/go-ipfilter)
+-->
 
 Tiny Golang lib for IP filtering. 
 
