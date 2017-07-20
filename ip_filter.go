@@ -18,7 +18,6 @@ var (
 // Condition is just bool condition for whitelisting IP addresses.
 type Condition func(net.IP) bool
 
-
 // OR is an array of conditions with logic OR. If no condition is passed it returns false.
 func OR(conditions ...Condition) Condition {
 	return func(ip net.IP) bool {
