@@ -92,6 +92,7 @@ func ParseIP(address string) (ipAddr net.IP, err error) {
 	return ip, nil
 }
 
+// SingleIPNet returns network that contains only specified IP.
 func SingleIPNet(ip net.IP) net.IPNet {
 	return net.IPNet{IP: ip, Mask: net.IPv4Mask(255, 255, 255, 255)}
 }
